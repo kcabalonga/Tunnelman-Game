@@ -1,0 +1,60 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "90a555d6df0372968c45cd933bdc4ad5e7c0ead2fda0cacef9b04929c02aa297"
+    }
+  ],
+  "containerPath" : "/Users/kirstencabalonga/Desktop/TunnelMan-skeleton-mac/TunnelMan.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/kirstencabalonga/Desktop/TunnelMan-skeleton-mac/DerivedData/TunnelMan/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/kirstencabalonga/Desktop/TunnelMan-skeleton-mac/DerivedData/TunnelMan/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/kirstencabalonga/Desktop/TunnelMan-skeleton-mac/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/kirstencabalonga/Desktop/TunnelMan-skeleton-mac/DerivedData/TunnelMan/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/kirstencabalonga/Desktop/TunnelMan-skeleton-mac/DerivedData/TunnelMan/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/kirstencabalonga/Desktop/TunnelMan-skeleton-mac/DerivedData/TunnelMan/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/kirstencabalonga/Desktop/TunnelMan-skeleton-mac/DerivedData/TunnelMan/Build/Products",
+      "pchPath" : "/Users/kirstencabalonga/Desktop/TunnelMan-skeleton-mac/DerivedData/TunnelMan/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
